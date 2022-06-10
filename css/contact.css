@@ -13,7 +13,7 @@ body a {
 }
 .address-grid i {
     font-size: 1.7em;
-    color: #ff4e00;
+    color: #3694ED;
 }
 .contact_grid_right {
     width: 100%;
@@ -67,7 +67,7 @@ p.sub {
 }
 
 .contact_grid_right input[type="submit"]:hover {
-    background: #ff4e00;
+    background: #3694ED;
 }
 
 .contact-left h4 {

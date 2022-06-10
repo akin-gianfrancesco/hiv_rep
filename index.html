@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <title>
-      Goggles Ecommerce Category Bootstrap responsive Web Template | Home ::
-      w3layouts
+      HVRstudios
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
@@ -59,24 +58,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <header>
         <div class="row">
           <div class="col-md-3 top-info text-left mt-lg-4">
+            <!--
+            <div style="padding-bottom:30%;padding-left:30%;position:absolute;"><iframe src="https://giphy.com/embed/lLdPDEgSHXYfMMUBTj" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            
             <h6>Need Help</h6>
             <ul>
               <li><i class="fas fa-phone"></i> Call</li>
               <li class="number-phone mt-3">12345678099</li>
-            </ul>
+            </ul>-->
           </div>
           <div class="col-md-6 logo-w3layouts text-center">
-            <h1 class="logo-w3layouts">
-              <a class="navbar-brand" href="index.html"> Goggles </a>
-            </h1>
+            <iframe src="https://giphy.com/embed/Y9ffu7AoDhbLa" width="85%" height="85%" style="padding-right: 10px;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <!---<h1 class="logo-w3layouts">
+              <a class="navbar-brand" href="index.html"> HVRStudios </a>
+            </h1>-->
           </div>
 
           <div class="col-md-3 top-info-cart text-right mt-lg-4">
             <ul class="cart-inner-info">
               <li class="button-log">
+                <!---
                 <a class="btn-open" href="#">
                   <span class="fa fa-user" aria-hidden="true"></span>
-                </a>
+                </a>-->
               </li>
               <li class="galssescart galssescart2 cart cart box_1">
                 <form action="#" method="post" class="last">
@@ -96,9 +100,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </ul>
             <!---->
             <div class="overlay-login text-left">
+              <!--
               <button type="button" class="overlay-close1">
                 <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
+              </button>-->
               <div class="wrap">
                 <h5 class="text-center mb-4">Login Now</h5>
                 <div class="login p-5 bg-dark mx-auto mw-100">
@@ -194,13 +199,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul class="navbar-nav nav-mega mx-auto">
               <li class="nav-item active">
                 <a class="nav-link ml-lg-0" href="index.html"
-                  >Home
+                  >Shop
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
+              <!--
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -355,7 +361,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <hr />
                   </li>
                 </ul>
-              </li>
+              </li>-->
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
@@ -385,14 +391,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="carousel-item active">
               <div class="carousel-caption text-center">
                 <h3>
-                  Women’s eyewear
-                  <span>Want to Look Your Best?</span>
+                  hoodie collection
+                  <span></span>
                 </h3>
                 <a
-                  href="shop.html"
+                  href="#shopping"
                   class="btn btn-sm animated-button gibson-three mt-4"
+                  
                   >Shop Now</a
-                >
+                > 
               </div>
             </div>
             <div class="carousel-item item2">
@@ -448,7 +455,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <section class="banner-bottom-wthreelayouts py-lg-5 py-3">
       <div class="container-fluid">
         <div class="inner-sec-shop px-lg-4 px-3">
-          <h3 class="tittle-w3layouts my-lg-4 my-4">New Arrivals for you</h3>
+          <h3 class="tittle-w3layouts my-lg-4 my-4" id="shopping">New Arrivals for you</h3>
           <div class="row">
             <!-- /womens -->
             <div class="col-md-3 product-men women_two">
@@ -2096,7 +2103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- newsletter modal -->
     <!-- Modal -->
-    <!-- Modal -->
+    <!-- Modal 
     <div
       class="modal fade"
       id="myModal"
@@ -2151,7 +2158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <script>
       $(document).ready(function () {
         $("#myModal").modal();
@@ -2238,6 +2245,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
 
     <!-- //end-smooth-scrolling -->
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
 
     <!-- dropdown nav -->
     <script>
