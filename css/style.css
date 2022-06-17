@@ -161,7 +161,7 @@ h1.logo-w3layouts a.navbar-brand {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #3694ED;
+  color: #3694ed;
   border-radius: 0px;
 }
 
@@ -254,7 +254,6 @@ li.number-phone {
       rgba(255, 255, 255, 0.5)
     ),
     url(../images/#) repeat;*/
-
 }
 
 .search {
@@ -279,7 +278,7 @@ ul.cart-inner-info li {
   letter-spacing: 3px;
 }
 .top-info i {
-  color: #3694ED;
+  color: #3694ed;
 }
 /*-- //header --*/
 
@@ -328,7 +327,7 @@ ul.cart-inner-info li {
   background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)),
     url(../images/hoodie5.JPG) no-repeat;
   background-size: cover;
-} 
+}
 
 .carousel-item.item2 {
   background: -webkit-linear-gradient(
@@ -474,14 +473,14 @@ a.animated-button:visited:hover:after {
 }
 
 a.animated-button.gibson-three {
-  border: 2px solid #3694ED;
+  border: 2px solid #3694ed;
   color: #fff;
 }
 
 a.animated-button.gibson-three:after {
   opacity: 0;
-  background-image: -webkit-linear-gradient(transparent 50%, #3694ED 50%);
-  background-image: -moz-linear-gradient(transparent 50%, #3694ED 50%);
+  background-image: -webkit-linear-gradient(transparent 50%, #3694ed 50%);
+  background-image: -moz-linear-gradient(transparent 50%, #3694ed 50%);
   background-size: 10px 10px;
   -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
   -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
@@ -492,7 +491,7 @@ a.animated-button.gibson-three:after {
 a.animated-button.gibson-three:hover:after {
   height: 600% !important;
   opacity: 1;
-  color: #3694ED;
+  color: #3694ed;
 }
 
 /* Show it is fixed to the top */
@@ -513,7 +512,7 @@ a.animated-button.gibson-three:hover:after {
 
 .login button.btn.btn-primary.submit {
   box-shadow: 2px 2px #54575a;
-  background: #3694ED;
+  background: #3694ed;
   padding: 0.5em 2em;
   letter-spacing: 1px;
   border: none;
@@ -653,7 +652,7 @@ figure.effect-lexi h3 {
   color: #fff;
 }
 figure.effect-lexi h3 span {
-  color: #3694ED;
+  color: #3694ed;
 }
 
 figure.effect-lexi p {
@@ -692,7 +691,7 @@ figure.effect-lexi:hover p {
 }
 .mail-grid-text-info h3 {
   font-size: 0.9em;
-  color: #3694ED;
+  color: #3694ed;
   margin: 0em 0 0.5em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -797,7 +796,7 @@ button.close {
   font-size: 1.2em;
 }
 .login.newsletter a:hover {
-  color: #3694ED;
+  color: #3694ed;
 }
 ul.agile_top_section li {
   display: inline-block;
@@ -1056,7 +1055,7 @@ ul.social-icons li a i.fab.fa-google-plus-g:hover {
 .customer-info h6 {
   font-size: 1em;
   margin: 1em 0;
-  color: #3694ED;
+  color: #3694ed;
 }
 .customer-info ul.social-icons li a i {
   color: #202223;
@@ -1347,7 +1346,7 @@ input#datepicker {
 
 .banner_inner {
   /*\background: url(../images/hvrlogo.jpg) no-repeat 0px -73px;*/
-  background:#111111;
+  background: #111111;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -1375,7 +1374,7 @@ ul.short li {
 }
 
 ul.short li a {
-  color: #3694ED;
+  color: #3694ed;
 }
 
 /*-- /error --*/
@@ -1398,7 +1397,7 @@ a.b-home {
 }
 
 a.b-home:hover {
-  background: #3694ED;
+  background: #3694ed;
   letter-spacing: 1px;
 }
 
@@ -1444,7 +1443,7 @@ a.b-home:hover {
   cursor: pointer;
 }
 .error_page button.btn1:hover {
-  background: #3694ED;
+  background: #3694ed;
 }
 .error_page form {
   margin: 0 auto;
@@ -1478,7 +1477,7 @@ h3.tittle-w3layouts.two {
 .testimonials_grid label {
   font-size: 1em;
   letter-spacing: 1px;
-  color: #3694ED;
+  color: #3694ed;
 }
 .testimonials_grid h3 span {
   font-weight: 100;
@@ -1522,7 +1521,7 @@ a.carousel-control-prev.test {
   color: #333 !important;
 }
 .footer-top-w3layouts-grid-sec:hover .mail-grid-icon i {
-  color: #3694ED;
+  color: #3694ed;
 }
 /*--footer--*/
 
@@ -1555,7 +1554,7 @@ footer {
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.9;
-  color: #3694ED;
+  color: #3694ed;
 }
 
 .copyright-w3layouts {
@@ -1599,7 +1598,7 @@ footer {
 }
 
 .footer-text button.btn1 {
-  color:#3694ED;
+  color: #3694ed;
   border: none;
   padding: 10px 0;
   outline: none;
@@ -1683,13 +1682,13 @@ ul.links li a:hover {
   font-size: 15px;
 }
 .footer-social li a:hover {
-  color: #3694ED;
+  color: #3694ed;
 }
 
 /*--//social-icons--*/
 
 .copyright-w3layouts a {
-  color: #3694ED;
+  color: #3694ed;
 }
 
 /*--//footer--*/
@@ -1790,7 +1789,7 @@ ul.links li a:hover {
 
 @media (max-width: 1280px) {
   .banner_inner {
-    background: url(../images/banner4.jpg) no-repeat 0px -55px;
+    background: black 0px -55px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1955,7 +1954,7 @@ ul.links li a:hover {
 
 @media (max-width: 991px) {
   .banner_inner {
-    background: url(../images/banner4.jpg) no-repeat 0px -20px;
+    background: black 0px -20px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -2111,6 +2110,7 @@ ul.links li a:hover {
   }
   h3.tittle-w3layouts {
     font-size: 2.2em;
+    
   }
 }
 
